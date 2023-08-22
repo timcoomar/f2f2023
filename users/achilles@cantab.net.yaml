@@ -1,0 +1,8 @@
+name: Tim
+super: true
+id: 10113b7b-2f11-426e-ab5f-9b37613f64e6
+password_hash: $2y$10$ohpYd7ONJL.M.L32dOclG.M1BqxP6tIdlKGCFtA.EwVQjPFUYSSw2
+preferences:
+  assets:
+    assets:
+      per_page: 100

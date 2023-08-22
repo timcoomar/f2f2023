@@ -1,0 +1,32 @@
+.main__contact {
+    display: grid;
+    place-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.main__contact > form {
+    width: 70vw;
+
+    label {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+    input:where([type="text"], [type="email"]) {
+        width: 100%;
+        margin-bottom: 1.7rem;
+        padding: .2rem;
+        border: none;
+        border-bottom: 1px dashed #999;
+    }
+    textarea {
+        width: 100%;
+        margin-bottom: 1.5rem;
+        border: none;
+        border-bottom: 1px dashed #999;
+    }
+    ::placeholder {
+        font-size: 1rem;
+    }
+}

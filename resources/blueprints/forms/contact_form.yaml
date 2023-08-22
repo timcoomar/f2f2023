@@ -1,0 +1,63 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: name
+            field:
+              input_type: text
+              placeholder: 'Your full name'
+              antlers: false
+              type: text
+              display: 'Your name'
+              icon: text
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+              validate:
+                - required
+          -
+            handle: email
+            field:
+              input_type: email
+              antlers: false
+              type: text
+              display: 'Email Address'
+              icon: text
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+              validate:
+                - required
+              placeholder: 'Personal or organisation email'
+          -
+            handle: org_name
+            field:
+              input_type: text
+              placeholder: 'If applicable, the name of the organisation or church you are part of'
+              antlers: false
+              type: text
+              display: 'Organisation / Church'
+              icon: text
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+          -
+            handle: contact_message
+            field:
+              placeholder: 'What would you like to tell us?'
+              antlers: false
+              type: textarea
+              display: Message
+              icon: textarea
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+              validate:
+                - required

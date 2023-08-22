@@ -1,0 +1,12 @@
+<nav class="site-nav">
+    <a href='{{ link to="/" }}' class="site-logo">
+        <img src="{{ config:app:url }}/assets/f2f-logo.png">
+    </a>
+    <ul class="site-menu">
+        {{ nav:site_nav }}
+        <li>
+            <a href="{{ url }}">{{ title }}</a>
+        </li>
+        {{ /nav:site_nav }}
+    </ul>
+</nav>

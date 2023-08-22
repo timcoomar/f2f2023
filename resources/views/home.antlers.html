@@ -1,0 +1,41 @@
+<header class="site-header site-header--home">
+    {{ partial:partials/nav }}
+
+    <section class="splide header-image" aria-label="Splide Basic HTML Example">
+        <div class="splide__track">
+            <ul class="splide__list">
+                {{
+                    header_img
+                }}
+                <li class="splide__slide">
+                    <img src="{{ url }}" />
+                </li>
+                {{ /header_img }}
+            </ul>
+        </div>
+    </section>
+
+    <div class="strapline">Combining Song and Music for a <strong>face to face</strong> encounter with God.</div>
+</header>
+<main class="main__default main__home">
+{{ content | widont(5) }}
+</main>
+
+
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var splide = new Splide('.splide',{
+            type : 'fade',
+            perPage: 1,
+            arrows: false,
+            pagination: false,
+            autoplay: true,
+            pauseOnHover: false,
+            speed: 1200,
+            interval: 4000,
+        });
+        splide.mount()
+    })
+</script>

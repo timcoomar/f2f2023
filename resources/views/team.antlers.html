@@ -1,0 +1,36 @@
+<header class="site-header">
+    {{ partial:partials/nav }}
+    {{ if header_img }}
+    <figure class="header-image">
+        {{ header_img }}
+        <img src="{{ url }}" />
+        {{ /header_img }}
+    </figure>
+    {{ /if }}
+    <div class="strapline">
+        Combining Song and Music for a <strong>face to face</strong> encounter
+        with God.
+    </div>
+</header>
+<main class="main__default main__team">
+    {{ team_members }}
+    <article class="team-member">
+        <div class="team-member__profile">
+            <div>
+                {{ if profile_image }}
+                    <figure>
+                        {{ profile_image | image }}
+                    </figure>
+                {{ /if }}
+            </div>
+            <figcaption>
+                <p>{{ name }}</p>
+                <p>{{ instrument }}</p>
+            </figcaption>
+        </div>
+        <div class="team-member__desc">
+            {{ profile_text }}
+        </div>
+    </article>
+    {{ /team_members }}
+</main>

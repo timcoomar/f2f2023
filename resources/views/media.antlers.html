@@ -1,0 +1,72 @@
+<header class="site-header">
+    {{ partial:partials/nav }}
+    {{ if header_img }}
+    <figure class="header-image">
+        {{ header_img }}
+        <img src="{{ url }}" />
+        {{ /header_img }}
+    </figure>
+    {{ /if }}
+    <div class="strapline">
+        Combining Song and Music for a <strong>face to face</strong> encounter
+        with God.
+    </div>
+</header>
+<main class="main__default main__media">
+
+    <section class="media-gallery">
+        <h3>Gallery</h3>
+
+        <div class="gallery-container">
+
+        {{ assets container="gallery" }}
+            <figure class="gallery-image">
+                <a href="{{ url }}" class="lightbox" data-lightbox-gallery="gallery1">
+                    <img src="{{ glide :src='url' w='220' h='220' }}">
+                </a>
+            </figure>
+        {{ /assets }}
+
+        </div>
+
+
+    </section>
+
+    <section class="media-news">
+        <h3>Current News:</h3>
+        <a
+        href="{{ newsletter_pdf }}"
+        class="button lightbox"
+        aria-haspopup="dialog"
+        title="Face2Face Latest News"
+        >Click here to read our most recent newsletter</a>
+
+        <hr>
+        {{ if archive }}
+        <h3>Archive:</h3>
+        {{ archive }}
+            <ul style="padding-left: 0">
+                <li><a href="{{ newsletter_file }}{{ url }}{{ /newsletter_file }}">{{ name }}</a></li>
+            </ul>
+        {{ /archive }}
+        {{ /if }}
+    </section>
+</main>
+
+<script
+    src="https://code.jquery.com/jquery-3.3.0.min.js"
+    integrity="sha256-RTQy8VOmNlT6b2PIRur37p6JEBZUE7o8wPgMvu18MC4="
+    crossorigin="anonymous"
+></script>
+<script src="{{ config:app:url }}/js/topbox.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('.lightbox').topbox({
+            effect: 'fade',
+            skin: 'darkroom',
+            backgroundBlur: false
+        })
+    })
+</script>
+

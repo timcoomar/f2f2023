@@ -4,8 +4,8 @@ blueprint: pages
 title: Home
 template: home
 author: d41cff65-9c80-4e13-b824-50c57e984a55
-updated_by: d41cff65-9c80-4e13-b824-50c57e984a55
-updated_at: 1686829730
+updated_by: 10113b7b-2f11-426e-ab5f-9b37613f64e6
+updated_at: 1692968278
 header_img:
   - hero-piano.jpg
   - hero-violin.jpg
@@ -18,4 +18,4 @@ We are a group of Christian professional musicians who refresh audiences everywh
 
 Our aim is to perform a range of music to the highest professional standards, conveying the love of God in a contemporary way.
 
-Jesus said “Here I am. I stand at the door and knock. If anyone hears my voice and opens the door, I will come in and eat with him and he with me.”    Revelation 3 : 20
+Jesus said “Here I am. I stand at the door and knock. If anyone hears my voice and opens the door, I will come in and eat with him and he with me.” Revelation 3:20

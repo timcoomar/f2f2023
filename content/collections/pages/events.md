@@ -4,19 +4,14 @@ blueprint: page
 title: Events
 author: d41cff65-9c80-4e13-b824-50c57e984a55
 updated_by: 10113b7b-2f11-426e-ab5f-9b37613f64e6
-updated_at: 1692703621
+updated_at: 1692968950
 header_img:
   - hero-events.jpg
 events_upcoming: |-
   ### Current concerts
-  Due to the Corona Virus pandemic, our 2020 concerts are on hold, but we are planning to reschedule the following concerts in the future:
+  Due to the Corona Virus pandemic, our concerts were on hold, but we are happy to announce that we are now up and running, with the following forthcoming events:
 
-  - Moor Park Mansion
-  - Fountain of Life Church, Ashill, Norfolk
-  - Wayland Prison, Norfolk
-  - St. Mary's Street event
-  - Christ Church, St. Albans
-  - AMP the Mount, Bovingdon
+  - St Luke's, Watford 28th October 2023 (more details to be announced)
 events_past: |-
   ### A few past events
 

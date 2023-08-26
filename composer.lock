@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3daf5027d3f4cc4fc4b07efcf13f3250",
+    "content-hash": "3ee9cd419bc53bb3831f21cdeb6d6e20",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -1718,6 +1718,44 @@
                 }
             ],
             "time": "2021-10-07T12:57:01+00:00"
+        },
+        {
+            "name": "hairylemon-developers/form-guard",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hairylemon-developers/form-guard.git",
+                "reference": "ba5c9a4ac70c7c9cdb2493bdfd5f360ec2cdbb0e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hairylemon-developers/form-guard/zipball/ba5c9a4ac70c7c9cdb2493bdfd5f360ec2cdbb0e",
+                "reference": "ba5c9a4ac70c7c9cdb2493bdfd5f360ec2cdbb0e",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "statamic": {
+                    "name": "Form Guard",
+                    "description": "Form Guard addon"
+                },
+                "laravel": {
+                    "providers": [
+                        "HairylemonDevelopers\\FormGuard\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "HairylemonDevelopers\\FormGuard\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "support": {
+                "issues": "https://github.com/hairylemon-developers/form-guard/issues",
+                "source": "https://github.com/hairylemon-developers/form-guard/tree/1.0.0"
+            },
+            "time": "2023-05-24T22:05:50+00:00"
         },
         {
             "name": "intervention/image",

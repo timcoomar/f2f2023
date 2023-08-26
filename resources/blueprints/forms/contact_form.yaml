@@ -61,3 +61,4 @@ tabs:
               hide_display: false
               validate:
                 - required
+                - form_guard

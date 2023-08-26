@@ -4,7 +4,7 @@ blueprint: page
 title: 'The Team'
 author: d41cff65-9c80-4e13-b824-50c57e984a55
 updated_by: 10113b7b-2f11-426e-ab5f-9b37613f64e6
-updated_at: 1692702364
+updated_at: 1693051361
 header_img:
   - hero-team.jpg
 team_members:
@@ -68,7 +68,7 @@ team_members:
     id: ljiehdlk
     name: 'Nina Cook'
     instrument: Singer
-    profile_text: 'Nina began singing at sixteen and studied with Guildhall professor Richard Ford, then with Jessica Cash and is currently with Nicholas Powell. She performed with many London based groups and with the Kent Opera before choosing family over career for several years. She loves to sing anything really, and is very happy to move from Bach to Gershwin and from Handel to Bob Dylan. Over the past 20 years she has been a member of Face2face and has been privileged to travel to Russia with them several times.'
+    profile_text: "Since the Covid restrictions came upon us in 2020 many things have changed for us all, but for Nina (and Stephen) a wonderful opportunity to bring music and song with the message of the good news of our Lord Jesus Christ presented itself in new ways. We were able to use the 'lock down' to take our music to the local streets in summer garden concerts, street events and Christmas carol singing for the community, reminding our friends and neighbours of the wonder of the birth of the Lord Jesus and the true meaning of Christmas. Nina continues to keep her voice in good order with the help of her 'long time' highly respected singing teacher Nicholas Powell. She also has had the fun of performing some of her favourite songs,singing a wide range of music for the soprano repertoire, from German lieder, Italian arias to favourite English composers like Vaughan Williams and Ivor Novello!"
     type: new_set
     enabled: true
     profile_image: nina.png

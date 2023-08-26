@@ -4,14 +4,15 @@ blueprint: page
 title: Events
 author: d41cff65-9c80-4e13-b824-50c57e984a55
 updated_by: 10113b7b-2f11-426e-ab5f-9b37613f64e6
-updated_at: 1692968950
+updated_at: 1693051404
 header_img:
   - hero-events.jpg
 events_upcoming: |-
   ### Current concerts
   Due to the Corona Virus pandemic, our concerts were on hold, but we are happy to announce that we are now up and running, with the following forthcoming events:
 
-  - St Luke's, Watford 28th October 2023 (more details to be announced)
+  - St Luke's, Watford 28th October 2023 (details to be announced)
+  - The ATRIA Shopping Centre Watford, Thursday 21st December 2023 (details to be announced)
 events_past: |-
   ### A few past events
 
@@ -21,7 +22,7 @@ events_past: |-
   - Moor Park Mansion 13/10/18
   - Sunday Service at Bovingdon Prison 10/2/19
   - Kirby-le-Soken Evangelical Church 11/5/19
-  - Hatfield Galleria 20/12/19
+  - The Howard Centre, Welwyn Garden City 20/12/19
   - Christ Church Barnet 18/1/20
 template: events
 ---
